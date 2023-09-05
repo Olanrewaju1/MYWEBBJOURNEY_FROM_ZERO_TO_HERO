@@ -1,0 +1,66 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    border-bottom: 10px dotted darkmagenta;
+    color:palevioletred;
+    font-family: sans-serif;
+    
+}
+
+div{
+   
+    font-weight: bold;
+    color: slategrey;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+h3{
+    font-style: normal;
+    color:black;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+a:link,
+a:visited{
+    text-decoration: none;
+    
+
+}
+
+p::first-line{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+p::after{
+
+    content:"Tester tester tester tester";
+}
+
+ul li{
+    font-style: italic;
+}
+
+
+ul > li[class ^= "email-box"]{
+
+     color: blue;
+}
+
+.tester{
+    color:blue;
+    background-color: white;
+}
