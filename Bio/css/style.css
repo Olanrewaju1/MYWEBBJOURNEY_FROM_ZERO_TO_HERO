@@ -1,3 +1,7 @@
+@layer component.component1, component.component2;
+
+@layer default{
+
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
@@ -64,3 +68,31 @@ ul > li[class ^= "email-box"]{
     color:blue;
     background-color: white;
 }
+
+h1[id].Header{
+    color:blue;
+}
+
+}
+
+@layer component{
+
+    @layer component1{
+    h1{
+       color:green;
+    }
+
+    p{
+       color:green;
+    }
+}
+
+@layer component2{
+    h1#Header{
+        color:pink;
+    }
+}
+
+}
+
+
