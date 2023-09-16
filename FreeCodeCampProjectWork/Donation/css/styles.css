@@ -1,0 +1,109 @@
+body{
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.rounded{
+    width: 200px;
+    height:100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin:2rem auto;
+}
+
+h1,h2,footer{
+
+    text-align: center;
+}
+
+form{
+    max-width: 600px;
+    min-width: 300px;
+    margin:2rem auto;
+}
+
+fieldset{
+    padding:1em;
+
+}
+
+
+button, input,table{
+
+    width:100%;
+}
+.inline{
+    display: block;
+    margin-top:1rem;
+    width:100%;
+    padding:0.7rem;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="text"]{
+
+    width:100%;
+    height:30px;
+}
+input[type="submit"]{
+
+    margin-top: 1.5rem;
+}
+
+.paypal{
+    background-color: darkorange;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blue;
+    
+}
+
+.pay{
+    color:darkblue;
+}
+
+a:hover,a:active,a:visited,a:link{
+         color:black;
+         font-size:15px;
+        
+}
+
+.borderless{
+    border-top:1px solid black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.borderless legend{
+    text-align: center;
+}
+
+footer a{
+
+    margin-bottom: 10px;
+}
+
+
+
+.patreon{
+    background-color: rgba(255,0,0,1);
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+.donate{
+    background-color:yellow;
+    
+}
+
+

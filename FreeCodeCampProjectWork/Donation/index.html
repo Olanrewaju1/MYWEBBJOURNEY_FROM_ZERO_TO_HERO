@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="rounded"></div>
+    <h1>Donate now to help our charity hire more amazing teachers</h1>
+    <h2>Confirm your donation of $5 / month</h2>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Secure donation</legend>
+            <button type="button" value="PayPal" class="inline paypal"><span class="pay">Pay</span>Pal</button>
+            <input type="button" value="PATREON" class="inline patreon"/>
+
+            <fieldset class="borderless">
+                <legend>Or donate with card</legend>
+                <table class="credit-card">
+                    <tr>
+                        <td colspan="2">
+                            <input type="text"  pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="1234-1234-1234-1234" required>
+                        </td>
+                        <td><input type="text" pattern="[0-9][0-9]/[0-9][0-9][0-9][0-9]" placeholder="MM/YY"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Donate" class="inline donate"/>
+        </fieldset>
+    </form>
+
+    <footer><a href="">Ask me later</a></footer>
+
+    
+</body>
+</html>
