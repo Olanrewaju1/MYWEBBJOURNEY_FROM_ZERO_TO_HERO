@@ -1,0 +1,130 @@
+body{
+
+    font-family:sans-serif;
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 0;
+    font-size: 30px;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    border-radius:20px;
+    box-shadow: 0 0 20px 20px hsla(87, 6%, 65%, 0.4);
+}
+
+.div{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    font-size: medium;
+}
+
+.first-div{
+    text-align:center;
+    border-radius:20px;
+    color:white;
+    background-color: rgba(0, 0, 255, 0.685);
+    
+}
+
+ div[class="span"]{
+
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+    width:150px;
+    padding:30px;
+    margin:0 auto;
+    box-shadow: 0 0 150px 100px hsla(87, 6%, 65%, 0.4);
+    background-color: rgba(0, 0, 120, 0.4);
+    
+ }
+
+
+
+ .remark{
+    margin-top: 30px;
+    font-size: 20px;
+ }
+
+
+ .span :first-child{
+
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif
+ }
+
+p{
+    line-height: 1.5;
+    font-size: smaller;
+    padding:2rem;
+}
+
+
+.second-div{
+    
+    display: flex;
+    padding:0 20px 5px;
+
+}
+
+.second-div h3{
+
+    color:rgba(25,0,88,0.9);
+}
+
+
+.list{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+   
+    
+}
+
+
+.list1{
+    background-color:rgba(255,99,77,0.3);
+    color:rgba(185,0,30,1);
+}
+
+.list2{
+    background-color: rgba(255,165,0,0.2);
+    color:rgba(255,165,0,1);
+}
+
+.list3{
+    background-color: rgba(59,255,124,0.2);
+    color:rgba(59,255,124,1)
+}
+
+.list4{
+    background-color: rgba(0,0,124,0.4);
+    color:rgba(43,20,124,0.9);
+}
+
+input[type="submit"]{
+    margin-bottom: 30px;
+    width:50%;
+    align-self: center;
+    min-height: 1.5rem;
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgba(25,0,88,0.9);
+    color:white;
+}
